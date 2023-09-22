@@ -1,5 +1,6 @@
 import { useTheme } from "next-themes";
 import resumeData from "../../data/resumeData";
+import {useEffect} from "react";
 
 const ResumeCardTwo = () => {
   const { theme, setTheme } = useTheme();
@@ -21,7 +22,7 @@ const ResumeCardTwo = () => {
               className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
               style={{
                 background: `${
-                  theme === "dark" ? "transparent" : singleItem?.bg
+                  theme === "dark" || theme === 'system' ? "transparent" : singleItem?.bg
                 }`,
               }}
               key={singleItem.id}
