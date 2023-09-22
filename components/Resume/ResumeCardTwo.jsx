@@ -30,7 +30,7 @@ const ResumeCardTwo = () => {
                 {singleItem.date}
               </span>
               <h3 className="text-xl dark:text-white"> {singleItem.title} </h3>
-              {singleItem.place.map((item) => <p className="dark:text-[#b7b7b7]">{item}</p>)}
+              {singleItem.place.map((item, index) => <p key={index} className="dark:text-[#b7b7b7]">{item}</p>)}
             </div>
           ))}
         </div>
