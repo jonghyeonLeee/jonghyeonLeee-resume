@@ -9,9 +9,10 @@ const Intro = () => {
           <div className="col-span-12 space-y-2.5">
             <div className="lg:mr-16">
               <p className="text-gray-lite dark:text-color-910 leading-7">
-                다양한 웹 프론트엔드 프로젝트에서 중요한 역할을 수행한 개발자로, 최근 프로젝트에서는 Typescript 도입과 CI/CD 프로세스 개선을 통해 개발 효율과 안정성을 향상시켰습니다.
-                또한, 코딩 컨벤션을 강화하고 Sentry와 react-hook-form을 도입하여 문제를 신속히 대응합니다.
-                이전 프로젝트에서는 안정성 향상과 프론트엔드 최적화를 통해 사용자 경험을 개선했습니다.
+                웹 개발 경력 6년차 개발자로 다양한 웹 어플리케이션을 개발하고 운영한 경헙이 있습니다.
+                React, Typescript 등의 기술 스택을 통한 프론트 개발을, C#, nodeJS를 사용한 백엔드 개발 경험을 통해 원활한 협업 능력을 갖추었습니다.
+                Sentry를 도입하여 에러를 실시간으로 관리하는 품질 개선을 위해 항상 고민하고 공부하고 있습니다.
+                지속적인 기술 성장을 추구하며, 최근엔 Next.js를 통해 SEO, SSR, BFF 등등 같은 최신 웹 기술을 탐구하고 있습니다.
               </p>
             </div>
           </div>
