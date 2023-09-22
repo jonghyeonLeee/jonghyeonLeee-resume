@@ -10,7 +10,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Bostami - Tailwind CSS  Personal Portfolio React Nextjs Template"
+          content="Jonghyeon Resume"
         />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
